@@ -1,0 +1,71 @@
+@font-face {
+  font-family: supercell;
+  src: url(Supercell-Magic_5.ttf);
+}
+
+.supercell {
+  font-family: supercell;
+}
+
+.gold {
+  color: #dbbd0c;
+}
+
+.primary {
+  color: #0d6efd;
+}
+
+.secondary {
+  color: #6c757d;
+}
+
+.navbar a {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.55);
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+.navbar a:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+footer {
+  padding: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+  border-top: 1px solid #ced4da;
+}
+
+.auto-grid {
+  display: grid;
+  grid-template-columns: 12rem 12rem;
+  grid-auto-flow: row;
+  grid-auto-rows: 20rem;
+}
+
+@media (min-width: 650px) {
+  .auto-grid {
+    grid-template-columns: 12rem 12rem 12rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .auto-grid {
+    grid-template-columns: 12rem 12rem 12rem 12rem;
+  }
+}
+
+@media (min-width: 950px) {
+  .auto-grid {
+    grid-template-columns: 12rem 12rem 12rem 12rem 12rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .auto-grid {
+    grid-template-columns: 12rem 12rem 12rem 12rem 12rem 12rem;
+  }
+}

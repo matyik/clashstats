@@ -9,6 +9,7 @@ export default function Home() {
     <>
       <Head>
         <title>Clash Stats</title>
+        <meta name='description' content='No ads, no BS. Just Clash Stats' />
       </Head>
       <Navmenu />
       <Container>
